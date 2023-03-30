@@ -641,7 +641,7 @@ export function Home() {
                 }}
               />
             </div>
-            <div className={styles["sidebar-action"]}>
+            <div className={styles["sidebar-action"] opacity=0}>
               <IconButton
                 icon={<SettingsIcon />}
                 onClick={() => {
