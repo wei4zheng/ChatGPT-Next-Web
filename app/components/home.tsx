@@ -612,7 +612,7 @@ export function Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT Next</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            我的森珀编程的信息学AI教练，魏老师的助理
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -641,7 +641,7 @@ export function Home() {
                 }}
               />
             </div>
-            <div className={styles["sidebar-action"]}>
+            <div className={styles["sidebar-action"]} style="display:none;" >
               <IconButton
                 icon={<SettingsIcon />}
                 onClick={() => {
